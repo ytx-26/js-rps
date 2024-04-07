@@ -1,3 +1,3 @@
 function getComputerChoice(){
-    choices = ['Rock', 'Paper', 'Scissors']
+    const choices = ['Rock', 'Paper', 'Scissors']
 }
