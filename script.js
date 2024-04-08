@@ -10,3 +10,8 @@ function PlayerSelection(){
     return PlayerChoice;
 }
 
+let PlayerChoice = PlayerSelection()
+let computerChoice = getComputerChoice()
+
+
+
