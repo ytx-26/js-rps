@@ -4,3 +4,7 @@ function getComputerChoice(){
     let computerChoice = randomIndex[choices];
     return computerChoice;
 }
+
+function PlayerSelection(){
+    let PlayerChoice = prompt('Enter your pick: ')
+}
