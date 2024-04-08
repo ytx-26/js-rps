@@ -4,5 +4,4 @@ function getComputerChoice(){
     let computerChoice = randomIndex[choices];
     return computerChoice;
 }
-const CompChoice = getComputerChoice() //calls the function and stores the result in CompChoice
-console.log(CompChoice);
+console.log(computerChoice);
