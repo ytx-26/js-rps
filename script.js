@@ -4,4 +4,5 @@ function getComputerChoice(){
     let computerChoice = randomIndex[choices];
     return computerChoice;
 }
+
 console.log(computerChoice);
