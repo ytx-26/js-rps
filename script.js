@@ -6,5 +6,7 @@ function getComputerChoice(){
 }
 
 function PlayerSelection(){
-    let PlayerChoice = prompt('Enter your pick: ')
+    let PlayerChoice = prompt('Enter your pick: ');
+    return PlayerChoice;
 }
+
