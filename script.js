@@ -1,7 +1,7 @@
 function getComputerChoice(){
     const choices = ['Rock', 'Paper', 'Scissors']
     const randomIndex = Math.floor(Math.random * (choices.length));
-    let computerChoice = randomIndex[choices];
+    let computerChoice = choices[randomIndex];
     return computerChoice; //returns whatever the computer decides 
 }
 
