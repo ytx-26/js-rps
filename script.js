@@ -2,16 +2,18 @@ function getComputerChoice(){
     const choices = ['Rock', 'Paper', 'Scissors']
     const randomIndex = Math.floor(Math.random * (choices.length));
     let computerChoice = randomIndex[choices];
-    return computerChoice;
+    return computerChoice; //returns whatever the computer decides 
 }
 
 function PlayerSelection(){
-    let PlayerChoice = prompt('Enter your pick: ').toLowerCase();
-    return PlayerChoice;
+    let PlayerChoice = prompt('Enter your pick: ').toLowerCase(); //converts the user's input to lowercase
+    return PlayerChoice; //returns whatever the player inputs
 }
 
-let PlayerChoice = PlayerSelection()
-let computerChoice = getComputerChoice()
+let PlayerChoice = PlayerSelection();
+let computerChoice = getComputerChoice();
 
+console.log(PlayerChoice);
+console.log(computerChoice);
 
 
