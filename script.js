@@ -14,6 +14,8 @@ let PlayerChoice = PlayerSelection();
 let computerChoice = getComputerChoice();
 let score = 1;
 
+
+
 console.log(PlayerChoice);
 console.log(computerChoice);
 
