@@ -13,7 +13,9 @@ function PlayerSelection(){
 let PlayerChoice = PlayerSelection();
 let computerChoice = getComputerChoice();
 let score = 1;
-
+for (let i = 0; i<5; i++){
+    
+}
 
 
 console.log(PlayerChoice);
