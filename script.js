@@ -10,11 +10,10 @@ function PlayerSelection(){
     return PlayerChoice; //returns whatever the player inputs
 }
 
-let PlayerChoice = PlayerSelection();
-let computerChoice = getComputerChoice();
 let score = 1;
 for (let i = 0; i<5; i++){
-    
+    let PlayerChoice = PlayerSelection();
+    let computerChoice = getComputerChoice();
 }
 
 
