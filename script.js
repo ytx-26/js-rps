@@ -17,7 +17,3 @@ for (let i = 0; i<5; i++){
 }
 
 
-console.log(PlayerChoice);
-console.log(computerChoice);
-
-
