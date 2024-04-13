@@ -14,8 +14,12 @@ let score = 1;
 
 for (let i = 0; i<5; i++){
     console.log("Your pick: ", PlayerSelection())
+
     if (getComputerChoice()===PlayerSelection()){
         console.log('draw!!');
+    }
+    else if (PlayerSelection() ==='rock' && getComputerChoice()==='paper'){
+        console.log('you lose!')
     }
 }
 
