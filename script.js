@@ -23,6 +23,9 @@ for (let i = 0; i<5; i++){
     (PlayerSelection ==='scissors' && getComputerChoice==='paper')){
         console.log('You win!!')
     }
+    else{
+        console.log('You lose')
+    }
 }
 
 
