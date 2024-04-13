@@ -11,9 +11,11 @@ function PlayerSelection(){
 }
 
 let score = 1;
+let PlayerChoice = PlayerSelection();
+let ComputerChoice = getComputerChoice();
 
 for (let i = 0; i<5; i++){
-    console.log("Your pick: ", PlayerSelection())
+    console.log("Your pick: ", PlayerChoice)
 
     if (getComputerChoice()===PlayerSelection()){
         console.log('Draw!!');
