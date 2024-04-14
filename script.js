@@ -15,7 +15,7 @@ let PlayerChoice = PlayerSelection();
 let ComputerChoice = getComputerChoice();
 
 for (let i = 0; i<5; i++){
-    console.log("Your pick: ", PlayerChoice)
+    console.log("Your pick: ", PlayerChoice);
 
     if (ComputerChoice===PlayerChoice){
         console.log('Draw!!');
@@ -23,10 +23,10 @@ for (let i = 0; i<5; i++){
     (PlayerChoice ==='rock' && ComputerChoice==='scissors') ||
     (PlayerChoice ==='paper' && ComputerChoice==='rock') ||
     (PlayerChoice ==='scissors' && ComputerChoice==='paper')){
-        console.log('You win!!')
+        console.log('You win!!');
     }
     else{
-        console.log('You lose')
+        console.log('You lose');
     }
 }
 
