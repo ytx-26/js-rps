@@ -17,7 +17,7 @@ let ComputerChoice = getComputerChoice();
 for (let i = 0; i<5; i++){
     console.log("Your pick: ", PlayerChoice)
 
-    if (computerChoice===PlayerChoice){
+    if (ComputerChoice===PlayerChoice){
         console.log('Draw!!');
     } else if (
     (PlayerChoice ==='rock' && ComputerChoice==='scissors')
