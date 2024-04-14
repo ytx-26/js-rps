@@ -20,8 +20,8 @@ for (let i = 0; i<5; i++){
     if (ComputerChoice===PlayerChoice){
         console.log('Draw!!');
     } else if (
-    (PlayerChoice ==='rock' && ComputerChoice==='scissors')
-    (PlayerChoice ==='paper' && ComputerChoice==='rock')
+    (PlayerChoice ==='rock' && ComputerChoice==='scissors') ||
+    (PlayerChoice ==='paper' && ComputerChoice==='rock') ||
     (PlayerChoice ==='scissors' && ComputerChoice==='paper')){
         console.log('You win!!')
     }
