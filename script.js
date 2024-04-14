@@ -31,7 +31,7 @@ for (let i = 0; i<5; i++){
         console.log('You lose');
         score--;
     }
-    console.log('Your final score is: ',score);
 }
+console.log('Your final score is: ',score);
 
 
