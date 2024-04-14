@@ -25,11 +25,9 @@ for (let i = 0; i<5; i++){
     (PlayerChoice ==='paper' && ComputerChoice==='rock') ||
     (PlayerChoice ==='scissors' && ComputerChoice==='paper')){
         console.log('You win!!');
-        score = ++;
     }
     else{
         console.log('You lose');
-        score = --;
     }
 }
 
