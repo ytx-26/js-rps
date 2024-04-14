@@ -11,10 +11,10 @@ function PlayerSelection(){
 }
 
 let score = 1;
-let PlayerChoice = PlayerSelection();
-let ComputerChoice = getComputerChoice();
 
 for (let i = 0; i<5; i++){
+    let PlayerChoice = PlayerSelection();
+    let ComputerChoice = getComputerChoice();
     console.log("Your pick: ", PlayerChoice);
 
     if (ComputerChoice===PlayerChoice){
