@@ -17,12 +17,12 @@ let ComputerChoice = getComputerChoice();
 for (let i = 0; i<5; i++){
     console.log("Your pick: ", PlayerChoice)
 
-    if (getComputerChoice()===PlayerSelection()){
+    if (computerChoice===PlayerChoice){
         console.log('Draw!!');
     } else if (
-    (PlayerSelection() ==='rock' && getComputerChoice()==='scissors')
-    (PlayerSelection() ==='paper' && getComputerChoice()==='rock')
-    (PlayerSelection() ==='scissors' && getComputerChoice()==='paper')){
+    (PlayerChoice ==='rock' && ComputerChoice==='scissors')
+    (PlayerChoice ==='paper' && ComputerChoice==='rock')
+    (PlayerChoice ==='scissors' && ComputerChoice==='paper')){
         console.log('You win!!')
     }
     else{
