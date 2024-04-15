@@ -10,3 +10,5 @@ function PlayerSelection(){
     return PlayerChoice; //returns whatever the player inputs
 }
 
+const rockbtn = document.getElementById('rock');
+
