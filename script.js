@@ -11,4 +11,5 @@ function PlayerSelection(){
 }
 
 const rockbtn = document.getElementById('rock');
+const rockbtn = document.getElementById('rock');
 
