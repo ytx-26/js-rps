@@ -12,5 +12,5 @@ function PlayerSelection(){
 
 const rockbtn = document.getElementById('rock');
 const paperbtn = document.getElementById('paper');
-const rockbtn = document.getElementById('rock');
+const scissorbtn = document.getElementById('scissor');
 
