@@ -1,13 +1,11 @@
+//Computer choice 
 function getComputerChoice(){
     const choices = ['rock', 'paper', 'scissors']
     const randomIndex = Math.floor(Math.random() * choices.length);
     let computerChoice = choices[randomIndex];
     return computerChoice; //returns whatever the computer decides 
 }
-const rockbtn = document.getElementById('rock');
-const paperbtn = document.getElementById('paper');
-const scissorbtn = document.getElementById('scissors');
-
+//Logic
 function getPlayerChoice(choice){
     const computerChoice = getComputerChoice();
 
@@ -24,7 +22,17 @@ function getPlayerChoice(choice){
         console.log('lost')
     }
 }
+//Referencing html to js 
+const rockbtn = document.getElementById('rock');
+const paperbtn = document.getElementById('paper');
+const scissorbtn = document.getElementById('scissors');
 
+console.log(rockbtn);
+console.log(paperbtn);
+console.log(scissorbtn);
+
+
+//Passes on parameters after a button has been clicked 
 rockbtn.addEventListener('click', function() {
     getPlayerChoice('rock');//if they click rock button a function will run where 'rock' is the para
 });
