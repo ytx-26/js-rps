@@ -8,6 +8,10 @@ const rockbtn = document.getElementById('rock');
 const paperbtn = document.getElementById('paper');
 const scissorbtn = document.getElementById('scissor');
 
+function getPlayerChoice(choice){
+}
+
 rockbtn.addEventListener('click', function() {
-    getPlayerChoice('rock');
+    getPlayerChoice('rock');//if they click rock button a function will run where 'rock' is the para
 });
+
