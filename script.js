@@ -9,7 +9,7 @@ const paperbtn = document.getElementById('paper');
 const scissorbtn = document.getElementById('scissor');
 
 function getPlayerChoice(choice){
-    const getComputerChoice() = computerChoice;
+    const computerChoice = getComputerChoice();
     if (getPlayerChoice===getComputerChoice){
         console.log('draw');
     } else if(
