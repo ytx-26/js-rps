@@ -20,6 +20,9 @@ function getPlayerChoice(choice){
     ){
         console.log('win')
     }
+    else{
+        console.log('lost')
+    }
 }
 
 rockbtn.addEventListener('click', function() {
