@@ -4,12 +4,6 @@ function getComputerChoice(){
     let computerChoice = choices[randomIndex];
     return computerChoice; //returns whatever the computer decides 
 }
-
-function PlayerSelection(){
-    let PlayerChoice = prompt('Enter your pick: ').toLowerCase(); //converts the user's input to lowercase
-    return PlayerChoice; //returns whatever the player inputs
-}
-
 const rockbtn = document.getElementById('rock');
 const paperbtn = document.getElementById('paper');
 const scissorbtn = document.getElementById('scissor');
