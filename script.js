@@ -27,9 +27,9 @@ rockbtn.addEventListener('click', function() {
 });
 
 paperbtn.addEventListener('click', function() {
-    playerSelection('paper');
+    getPlayerChoice('paper');
 });
 
 scissorbtn.addEventListener('click', function() {
-    playerSelection('scissors');
+    getPlayerChoice('scissors');
 });
