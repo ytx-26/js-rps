@@ -9,6 +9,9 @@ const paperbtn = document.getElementById('paper');
 const scissorbtn = document.getElementById('scissor');
 
 function getPlayerChoice(choice){
+    if (getPlayerChoice===getComputerChoice){
+        console.log('draw');
+    }
 }
 
 rockbtn.addEventListener('click', function() {
