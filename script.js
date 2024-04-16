@@ -14,9 +14,9 @@ function getPlayerChoice(choice){
     if (choice===computerChoice){
         console.log('draw');
     } else if(
-        (getPlayerChoice==='rock'&& computerChoice==='scissors') ||
-        (getPlayerChoice==='paper'&& computerChoice==='rock') ||
-        (getPlayerChoice==='scissor'&& computerChoice==='paper'){
+        (choice==='rock'&& computerChoice==='scissors') ||
+        (choice==='paper'&& computerChoice==='rock') ||
+        (choice==='scissor'&& computerChoice==='paper'){
             console.log('lost');
         }
     )
