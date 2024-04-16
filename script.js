@@ -15,3 +15,6 @@ rockbtn.addEventListener('click', function() {
     getPlayerChoice('rock');//if they click rock button a function will run where 'rock' is the para
 });
 
+paperbtn.addEventListener('click', function() {
+    playerSelection('paper');
+});
