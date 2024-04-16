@@ -18,3 +18,7 @@ rockbtn.addEventListener('click', function() {
 paperbtn.addEventListener('click', function() {
     playerSelection('paper');
 });
+
+scissorbtn.addEventListener('click', function() {
+    playerSelection('scissors');
+});
