@@ -11,10 +11,8 @@ const scissorbtn = document.getElementById('scissor');
 function getPlayerChoice(choice){
     if (getPlayerChoice===getComputerChoice){
         console.log('draw');
-    } else if 
-    (getPlayerChoice==='rock'&&getComputerChoice==='scissors')
-    (getPlayerChoice==='rock'&&getComputerChoice==='scissors')
-    (getPlayerChoice==='rock'&&getComputerChoice==='scissors')
+    } else if()
+    }
 }
 
 rockbtn.addEventListener('click', function() {
