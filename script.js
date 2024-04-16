@@ -9,5 +9,5 @@ const paperbtn = document.getElementById('paper');
 const scissorbtn = document.getElementById('scissor');
 
 rockbtn.addEventListener('click', function() {
-    playerSelection('rock');
+    getPlayerChoice('rock');
 });
