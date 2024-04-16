@@ -10,12 +10,13 @@ const scissorbtn = document.getElementById('scissor');
 
 function getPlayerChoice(choice){
     const computerChoice = getComputerChoice();
-    if (getPlayerChoice===getComputerChoice){
+
+    if (choice===computerChoice){
         console.log('draw');
     } else if(
-        (getPlayerChoice==='rock'&& getComputerChoice==='scissors') ||
-        (getPlayerChoice==='paper'&& getComputerChoice==='rock') ||
-        (getPlayerChoice==='scissor'&& getComputerChoice==='paper'){
+        (getPlayerChoice==='rock'&& computerChoice==='scissors') ||
+        (getPlayerChoice==='paper'&& computerChoice==='rock') ||
+        (getPlayerChoice==='scissor'&& computerChoice==='paper'){
             console.log('lost');
         }
     )
