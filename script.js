@@ -16,10 +16,10 @@ function getPlayerChoice(choice){
     } else if(
         (choice==='rock'&& computerChoice==='scissors') ||
         (choice==='paper'&& computerChoice==='rock') ||
-        (choice==='scissor'&& computerChoice==='paper'){
-            console.log('lost');
-        }
-    )
+        (choice==='scissor'&& computerChoice==='paper')
+    ){
+        console.log('lost')
+    }
 }
 
 rockbtn.addEventListener('click', function() {
