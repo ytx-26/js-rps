@@ -6,7 +6,7 @@ function getComputerChoice(){
 }
 const rockbtn = document.getElementById('rock');
 const paperbtn = document.getElementById('paper');
-const scissorbtn = document.getElementById('scissor');
+const scissorbtn = document.getElementById('scissors');
 
 function getPlayerChoice(choice){
     const computerChoice = getComputerChoice();
