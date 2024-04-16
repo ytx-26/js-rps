@@ -18,7 +18,7 @@ function getPlayerChoice(choice){
         (choice==='paper'&& computerChoice==='rock') ||
         (choice==='scissor'&& computerChoice==='paper')
     ){
-        console.log('lost')
+        console.log('win')
     }
 }
 
